@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(62, 62, 62);
+}
+
+.container{
+    position: absolute;
+    left: 550px;
+    top: 250px;
+    width: 0px;
+    height: 200px;
+}
+
+.qulischasaw{
+    position: relative;
+    top: -20px;
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+}
+
+.result{
+    position: relative;
+    top: 50px;
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+}
+
+.gamotvla{
+    position: relative;
+    top: 60px;
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+    width: 87.5px;
+    height: 30px;
+    left: 44px;
+    transition: 0.2s;
+}
+
+.gamotvla:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.qula{
+    position: relative;
+    left: 55px;
+    color: goldenrod;
+    font-size: 23px;
+}
+
+.jami1{
+    width: 175px;
+    height: 18px;
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    color: goldenrod;
+}
+
+@media screen and (max-width: 725px){
+    .container {
+        position: absolute;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 672px){
+    .container {
+        position: absolute;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container {
+        position: absolute;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 310px){
+    .container {
+        position: absolute;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 230px){
+    .container {
+        position: absolute;
+        left: 10%;
+    }
+}
